@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://goitacademy.github.io/my-parcel-build",
+  "homepage": "https://Chackorbit.github.io/goit-js-hw-10",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /my-parcel-build/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chackorbit/my-parcel-build.git"
+    "url": "git+https://github.com/Chackorbit/goit-js-hw-10.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -25,5 +25,8 @@
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
   },
-  "dependencies": {}
+  "dependencies": {
+    "debounce": "^1.2.1",
+    "notiflix": "^3.2.2"
+  }
 }
